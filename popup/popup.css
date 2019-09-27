@@ -1,0 +1,80 @@
+#redirect-btn {
+  height: 30px;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  transition: 0.2s;
+}
+
+.icon-area {
+  height: 100%;
+  width: 20%;
+  background-color: #39ff14;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+}
+
+.icon-area > .icon-pen {
+  background-image: url("/assets/images/pencil.png");
+  background-position: 0 top;
+  width: 50%;
+  height: 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.arrow {
+  height: 35%;
+  width: 5%;
+  background-color: #39ff14;
+  transform: rotate(45deg);
+  margin-left: -10px;
+  transition: 0.2s;
+}
+
+.link-area {
+  height: 100%;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  transition: 0.2s;
+}
+
+.link-area > a {
+  text-decoration: none;
+  color: #39ff14;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+
+#redirect-btn:hover {
+  cursor: pointer;
+  background-color: #39ff14;
+}
+
+#redirect-btn:hover > .arrow {
+  background-color: black;
+}
+
+#redirect-btn:hover > .icon-area {
+  background-color: black;
+}
+
+#redirect-btn:hover > .icon-area > .icon-pen {
+  background-position: 0 bottom;
+}
+
+#redirect-btn:hover > .link-area {
+  background-color: #39ff14;
+}
+
+#redirect-btn:hover > .link-area > a {
+  color: black;
+}
