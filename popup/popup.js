@@ -14,5 +14,5 @@ function getTimeNow() {
 
 function checkLogworkTime() {
   const currentTime = getTimeNow();
-  return (currentTime === "9:11");
+  return (currentTime === "11:29");
 }
